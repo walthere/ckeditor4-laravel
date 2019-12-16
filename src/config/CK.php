@@ -1,4 +1,5 @@
 <?php
 return [
-    "date_folder" => true
+    "date_folder" => true,
+    "img_folder"=>"image",
 ];

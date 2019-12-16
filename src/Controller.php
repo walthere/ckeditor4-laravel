@@ -15,7 +15,7 @@ class Controller extends BaseController
         $data = [];
         try {
             $file = $request->file("upload");
-            $folder = $config['img_foler'];
+            $folder = $config['img_folder'];
             if ($config['date_folder']) {
                 $folder = $folder."/".date("Ymd", time());
                 if (!file_exists(public_path('uploads/' . $folder))) {
